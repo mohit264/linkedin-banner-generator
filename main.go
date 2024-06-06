@@ -36,8 +36,8 @@ func main() {
 	log.Println("Generating banner of dimensions:", width, height)
 	maskImage := generateImageMask(width, height, []string{
 		"",
-		"                       Paul Baker - AWS Certified Developer",
-		"                             github.com/paul-nelson-baker",
+		"                       Mohit Dharmadhikari - Helping professionals to build Git and GitHub Expertise!",
+		"                             github.com/mohit264",
 	})
 	backgroundImage := getRandomUnsplashNaive(width, height, topic)
 	generateFinalImage(width, height, backgroundImage, maskImage)
